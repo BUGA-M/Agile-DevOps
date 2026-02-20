@@ -1,36 +1,87 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 DevOps Mastery — Interactive Learning Platform
 
-## Getting Started
+Une plateforme d'apprentissage interactive sur le cycle DevOps, construite avec **Next.js 15** et **Framer Motion**.
 
-First, run the development server:
+> Vivez le flux complet DevOps, du commit d'un développeur jusqu'au déploiement en production.
+
+---
+
+## 📖 À propos du projet
+
+Ce projet est une application web éducative couvrant les concepts clés de l'approche **Agile** et **DevOps** :
+
+- **CI — Continuous Integration** : Comprendre l'automatisation des tests et du build.
+- **CD — Continuous Delivery / Deployment** : Différencier livraison manuelle et déploiement automatique.
+- **Infrastructure & Outils** : Docker, Kubernetes, Terraform et l'Infrastructure as Code.
+- **Simulation Interactive** : Un pipeline DevOps simulé en temps réel, de `git push` à la production.
+
+---
+
+## 🗂️ Structure des Pages
+
+| Route | Description |
+|---|---|
+| `/` | Page d'accueil avec la visualisation Infinity Loop du cycle DevOps |
+| `/overview` | Vue d'ensemble du flux DevOps |
+| `/ci` | Continuous Integration — Flux CI animé |
+| `/cd` | Continuous Delivery vs Deployment |
+| `/architecture` | Patterns d'architecture |
+| `/tools` | Outils DevOps (Docker, Kubernetes, Terraform...) |
+| `/simulation` | 🎮 Simulation Pipeline interactive |
+
+---
+
+## 🛠️ Stack Technique
+
+- **Framework** : [Next.js 15](https://nextjs.org) (App Router)
+- **Langage** : TypeScript
+- **Animations** : [Framer Motion](https://www.framer.com/motion/)
+- **UI** : [shadcn/ui](https://ui.shadcn.com/) + Tailwind CSS
+- **Icônes** : [Lucide React](https://lucide.dev/)
+- **Diagrammes** : [Mermaid.js](https://mermaid.js.org/)
+
+---
+
+## ⚡ Démarrage
+
+### Prérequis
+- Node.js 18+
+- npm / yarn / pnpm
+
+### Installation
 
 ```bash
+# Cloner le dépôt
+git clone https://github.com/BUGA-M/Agile-DevOps.git
+cd Agile-DevOps
+
+# Installer les dépendances
+npm install
+
+# Lancer le serveur de développement
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Ouvrez [http://localhost:3000](http://localhost:3000) dans votre navigateur.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build de Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm run start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🎮 Fonctionnalités Principales
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 🔄 **Infinity Loop animé** — Visualisation du cycle DevOps complet (Plan → Code → Build → Test → Release → Deploy → Operate → Monitor).
+- 📊 **Flux CI interactif** — Timeline animée montrant chaque étape de la CI avec les scénarios de succès/échec.
+- 🆚 **Comparaison CD** — Visualisation côte à côte de Continuous Delivery (approbation humaine) vs Continuous Deployment (automatique).
+- 🎯 **Pipeline de Simulation** — Simulation en temps réel avec logs de terminal et métriques de production live.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📄 Licence
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Ce projet est à usage éducatif dans le cadre de la formation **OFPPT**.
